@@ -2,6 +2,8 @@
   "name": "typescript-starter",
   "version": "0.1.0",
   "scripts": {
+    "start": "node dist/production/index.js",
+    "start:dev": "node dist/development/index.js",
     "in-dev": "ts-node-dev --respawn src",
     "build:prod": "tsc --project tsconfig.production.json",
     "build:dev": "tsc --project tsconfig.json"
