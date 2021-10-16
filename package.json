@@ -1,0 +1,19 @@
+{
+  "name": "typescript-starter",
+  "version": "0.1.0",
+  "scripts": {
+    "in-dev": "ts-node-dev --respawn src",
+    "build:prod": "tsc --project tsconfig.production.json",
+    "build:dev": "tsc --project tsconfig.json"
+  },
+  "author": "WitecuseDev <witecuse@gmail.com>",
+  "devDependencies": {
+    "@types/node": "^16.11.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4",
+    "winston": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
