@@ -3,14 +3,22 @@
   "version": "0.1.0",
   "scripts": {
     "start": "node dist/production/index.js",
-    "start:dev": "node dist/development/index.js",
+    "test:dev": "node dist/development/index.js",
     "in-dev": "ts-node-dev --respawn src",
+    "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "build:prod": "tsc --project tsconfig.production.json",
     "build:dev": "tsc --project tsconfig.json"
   },
   "author": "WitecuseDev <witecuse@gmail.com>",
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "semi": true
+  },
   "devDependencies": {
     "@types/node": "^16.11.0",
+    "prettier": "^2.4.1",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.4",
     "winston": "^3.3.3"
