@@ -3,7 +3,6 @@
 ## Features
 
 -   Prettier
--   License
 -   Extension Recommendations
 -   Logger
 -   Env
@@ -48,3 +47,7 @@ npm run build:prod
 ```
 npm run build:dev
 ```
+
+## License
+
+This project licensed with `MIT` license
