@@ -1,6 +1,6 @@
 {
   "name": "typescript-starter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "start": "node dist/production/index.js",
     "test:dev": "node dist/development/index.js",
