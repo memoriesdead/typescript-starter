@@ -11,12 +11,13 @@
   },
   "scripts": {
     "start": "node dist/production/index.js",
-    "test:dev": "node dist/development/index.js",
+    "start:dev": "node dist/development/index.js",
     "in-dev": "ts-node-dev --respawn src",
+    "fix": "concurrently \"npm run fix:prettier\"  \"npm run fix:lint\"",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint \"src/**/*.ts\" --fix",
-    "build:prod": "tsc --project tsconfig.production.json",
-    "build:dev": "tsc --project tsconfig.json"
+    "build:prod": "concurrently -n fix \"tsc --project tsconfig.production.json\"",
+    "build:dev": "concurrently -n fix \"tsc --project tsconfig.json\""
   },
   "devDependencies": {
     "@types/node": "^16.11.0",
@@ -28,6 +29,7 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
+    "concurrently": "^6.3.0",
     "dotenv": "^10.0.0",
     "winston": "^3.3.3"
   }
