@@ -6,6 +6,7 @@
 - Extension Recommendations
 - Logger
 - Env
+- Eslint
 - Tsconfig (production/development)
 
 ## Scripts
@@ -34,6 +35,12 @@ npm run in-dev
 
 ```
 npm run fix:prettier
+```
+
+- To fix with eslint
+
+```
+npm run fix:lint
 ```
 
 - To build in production
