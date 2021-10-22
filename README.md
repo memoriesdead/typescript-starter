@@ -2,47 +2,47 @@
 
 ## Features
 
--   Prettier
--   Extension Recommendations
--   Logger
--   Env
--   Tsconfig (production/development)
+- Prettier
+- Extension Recommendations
+- Logger
+- Env
+- Tsconfig (production/development)
 
 ## Scripts
 
-Aviable scripts listed below
+Available scripts listed below
 
--   To start project **_(must be builded)_**
+- To start project **_(must be built)_**
 
 ```
 npm run start
 ```
 
--   To test in development
+- To test in development
 
 ```
 npm run test:dev
 ```
 
--   To start in development **_(watch)_**
+- To start in development **_(watch)_**
 
 ```
 npm run in-dev
 ```
 
--   To fix with prettier
+- To fix with prettier
 
 ```
 npm run fix:prettier
 ```
 
--   To build in production
+- To build in production
 
 ```
 npm run build:prod
 ```
 
--   To build in development
+- To build in development
 
 ```
 npm run build:dev
