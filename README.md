@@ -19,10 +19,10 @@ Available scripts listed below
 npm run start
 ```
 
-- To test in development
+- To start in development
 
 ```
-npm run test:dev
+npm run start:dev
 ```
 
 - To start in development **_(watch)_**
