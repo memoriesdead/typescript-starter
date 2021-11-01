@@ -1,7 +1,6 @@
 import { createLogger, format, transports } from "winston";
 
-const logsPath: string =
-    process.env.NODE_ENV === "production " ? "logs/production" : "logs/development";
+const logsPath: string = process.env.NODE_ENV === "production " ? "logs/production" : "logs/development";
 
 export const Logger = createLogger({
     level: "info",
