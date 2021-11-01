@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "typescript-starter",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "author": "WitecuseDev <witecuse@gmail.com>",
     "license": "MIT",
     "homepage": "https://github.com/WitecuseDev/typescript-starter/blob/main/README.md",
@@ -10,6 +10,7 @@
         "url": "https://github.com/WitecuseDev/typescript-starter/issues"
     },
     "scripts": {
+        "install": "npm run install",
         "start": "node dist/production/index.js",
         "start:dev": "node dist/development/index.js",
         "in-dev": "ts-node-dev --respawn src",
