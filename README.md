@@ -2,11 +2,11 @@
 
 ## Features
 
+-  Eslint
 -  Prettier
 -  Extension Recommendations
--  Logger
--  Env
--  Eslint
+-  Loggin System
+-  Environment System
 -  Tsconfig (production/development)
 
 ## Scripts
