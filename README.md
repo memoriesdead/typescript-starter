@@ -1,4 +1,4 @@
-# Typescript Project Starter - [@witecusedev/typescript-starter - v0.2.3](https://github.com/WitecuseDev/typescript-starter)
+# Typescript Project Starter - [@slaylocal/typescript-starter - v0.2.3](https://github.com/slaylocal/typescript-starter)
 
 ## Features
 
