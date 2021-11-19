@@ -1,13 +1,31 @@
-# Typescript Project Starter - [@slaylocal/typescript-starter - v0.2.3](https://github.com/slaylocal/typescript-starter)
+# Typescript Project Starter - [@slaylocal/typescript-starter - v0.3.0](https://github.com/slaylocal/typescript-starter)
 
 ## Features
 
--  Prettier
--  Extension Recommendations
--  Logger
--  Env
 -  Eslint
+-  Prettier
+-  Extension Recommendations (prettier, todo highlighting)
+-  Loggin System
+-  Environment System
 -  Tsconfig (production/development)
+
+## TODO Highlighting
+
+```
+/**
+ * If you installed the "TODO Highlighting" extension,
+ * you can use the these prefixes:
+ *
+ * TODO: Something that should be done.
+ * FIXME: Something that should be fixed.
+ * HACK: Something that should be removed.
+ * DEBUG: Something that should be fixed, but isn't.
+ * REVIEW: Something that should be reviewed.
+ * NOTE: Something that should be noted.
+ *
+ * ?: Stuff that isn't important.
+ */
+```
 
 ## Scripts
 
